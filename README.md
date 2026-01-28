@@ -26,7 +26,7 @@ The website is conceived as a clean, modern landing page with rich media content
 - [📁 Project Structure](#-project-structure)
 - [🎞️ Images](#️-images)
 - [🛠️ Technologies](#️-technologies)
-- [👨‍💻 Author](#-author)
+- [👨‍💻 Author](#%E2%80%8D-author)
 - [📄 License](#-license)
 
 ---
@@ -41,31 +41,32 @@ The website is conceived as a clean, modern landing page with rich media content
 
 ```
 📦 distopic-sounds
-├── index.html
-├── /html
+├── html
 │   └── index.html
-├── /styles
-│   ├── header-menu.css
-│   ├── hero.css
+├── resources
+│   ├── images
+│   │   ├── artists
+│   │   ├── logos
+│   │   ├── services
+│   │   ├── hero.webp
+│   │   ├── image.png
+│   │   └── Sin_título.png
+│   └── videos
+│       ├── services
+│       └── about-us.mp4
+├── scripts
+│   ├── finisher-header.es5.min.js
+│   ├── finisher-init.js
+│   ├── menu.js
+│   └── services.js
+├── styles
 │   ├── about-us.css
-│   ├── services.css
 │   ├── clients.css
 │   ├── contact.css
-│   └── footer.css
-├── /scripts
-│   ├── menu.js
-│   ├── services.js
-│   ├── finisher-header.es5.min.js
-│   └── finisher-init.js
-├── /resources
-│   ├── /images
-│   │   ├── /logos
-│   │   ├── /artists
-│   │   └── /services
-│   ├── /videos
-│   │   ├── about-us.mp4
-│   │   └── /services
-│   └── image.png
+│   ├── footer.css
+│   ├── header-menu.css
+│   ├── hero.css
+│   └── services.css
 └── README.md
 ```
 
@@ -94,11 +95,11 @@ The website is conceived as a clean, modern landing page with rich media content
 
 ### Third-Party Integrations:
 <ul>
-  <li><b>Finisher Header</b> – Animated background effects for the header section</li>
+  <li><a href="https://www.finisher.co/lab/header/" target="_blank"><b>Finisher Header</b></a> – Animated background effects for the header section</li>
   <li><b>Spotify Embed</b> – Display of featured artists and curated playlists</li>
   <li><b>Google Maps Embed</b> – Interactive map showing the studio location</li>
-  <li><b>Google Calendar Appointment Scheduling</b> – Seamless client booking system synced in real time</li>
-  <li><b>Google Fonts</b>li>
+  <li><a href="https://workspace.google.com/intl/es/products/calendar/" target="_blank"><b>Google Calendar Appointment Scheduling</b></a> – Seamless client booking system synced in real time</li>
+  <li><a href="https://developers.google.com/fonts?hl=es-419" target="_blank"><b>Google Fonts</b></a></li>
 </ul>
 
 ---
@@ -112,6 +113,7 @@ For any doubt, contact me:
 ---
 
 ## 👨‍💻 Author
+
 <table>
     <tr>
         <th>RedondoDEV</th>    
